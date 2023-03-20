@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './components/Sample';
+import Number from './components/Number';
+import TableA from './components/TableA';
+import Statebasics from './components/Statebasics';
+import Zero1 from './components/Zero1';
+import Page from './components/Page';
+import Add from './components/Add';
+import Forms from './components/Forms';
+import New from './components/New';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <New />
     </div>
   );
 }
